@@ -25,4 +25,4 @@ clang -Wall -O2 -target bpf -c icmp_blocker.c -o icmp_blocker.o
 <hr>
 <br>
 
-<h2>Hook the program up to the NIC</h2
+<h2>Hook the program up to the NIC</h2>
