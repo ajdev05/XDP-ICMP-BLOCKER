@@ -16,13 +16,11 @@ git clone git@github.com:ajdev05/xdp_block_icmp.git
 cd xdp_block_icmp
 ```
 
-<h2>Compile</h2>
+## Compile
 ```
 clang -Wall -O2 -target bpf -c icmp_blocker.c -o icmp_blocker.o
 ```
 
-<br>
-<hr>
-<br>
 
-<h2>Hook the program up to the NIC</h2>
+
+## Hook the program up to the NIC
