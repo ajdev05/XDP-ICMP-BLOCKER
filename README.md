@@ -31,4 +31,9 @@ clang -Wall -O2 -target bpf -c icmp_blocker.c -o icmp_blocker.o
 sudo ip link set dev eth0 xdp obj icmp_blocker.o sec xdp_icmp_blocker
 ```
 
+## Un-attach or stop the program from the NIC
 
+*EG: sudo ip link set dev [interface] xdp off*
+```
+sudo ip link set dev eth0 xdp off
+```
