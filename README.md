@@ -26,3 +26,9 @@ clang -Wall -O2 -target bpf -c icmp_blocker.c -o icmp_blocker.o
 ## Hook the program up to the NIC
 
 *EG : sudo ip link set dev [interface name] xdp obj icmp_blocker.o sec xdp_icmp_blocker*
+
+```
+sudo ip link set dev eth0 xdp obj icmp_blocker.o sec xdp_icmp_blocker
+```
+
+
