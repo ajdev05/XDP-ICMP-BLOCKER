@@ -17,7 +17,8 @@ cd xdp_block_icmp
 ```
 
 <h2>Compile</h2>
-```clang -Wall -O2 -target bpf -c icmp_blocker.c -o icmp_blocker.o
+```
+clang -Wall -O2 -target bpf -c icmp_blocker.c -o icmp_blocker.o
 ```
 
 <br>
