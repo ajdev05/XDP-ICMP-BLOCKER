@@ -1,6 +1,6 @@
 
-// Aj
-// 
+// Ajdev05
+// eBPF and XDP ICMP Blocker
 
 #include <linux/bpf.h>
 #include <linux/if_ether.h>
