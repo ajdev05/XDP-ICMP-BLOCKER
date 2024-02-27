@@ -12,7 +12,7 @@
 ```
 apt update -y ; apt upgrade -y
 apt install git
-git clone git@github.com:ajdev05/xdp_block_icmp.git
+git clone https://github.com/ajdev05/xdp_block_icmp.git
 cd xdp_block_icmp
 ```
 
