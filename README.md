@@ -2,7 +2,15 @@
 ## A program that blocks ICMP requests using eBPF and XDP on the kernel level.
 
 
-## You will need to download all of the dependencies for eBPF for your Linux OS
+## You will need to download all of the dependencies for eBPF for your OS, my preference is Ubuntu 20.04.
+
+```
+sudo apt install clang llvm libelf-dev libpcap-dev gcc-multilib build-essential
+sudo apt install linux-tools-$(uname -r)
+sudo apt install linux-headers-$(uname -r)
+sudo apt install linux-tools-common linux-tools-generic
+sudo apt install libbpf-dev
+```
 
 ## After you have everything that you need
 
@@ -12,8 +20,8 @@
 ```
 apt update -y ; apt upgrade -y
 apt install git
-git clone https://github.com/ajdev05/xdp_block_icmp.git
-cd xdp_block_icmp
+git clone https://github.com/ajdev05/XDP-ICMP-BLOCKER.git
+cd XDP-ICMP-BLOCKER
 ```
 
 ## Compile
