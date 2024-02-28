@@ -3,7 +3,6 @@
 
 
 ## You will need to download all of the dependencies for eBPF for your OS, my preference is Ubuntu 20.04.
-
 ```
 sudo apt install clang llvm libelf-dev libpcap-dev gcc-multilib build-essential
 sudo apt install linux-tools-$(uname -r)
